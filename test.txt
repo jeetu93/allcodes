@@ -1,1 +1,10 @@
 this is test file.
+
+git init
+
+git clone https://github.com/jeetu93/allcodes.git
+git status
+
+git push
+git push --set-upstream origin testing
+
