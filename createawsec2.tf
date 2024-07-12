@@ -4,15 +4,15 @@ provider "aws" {
 
 # user in IAM
 # single ec2 instance launches
-/*
-resource "aws_instance" "jkec2_0" {
+
+resource "aws_instance" "jkec2_3" {
     ami = "ami-04b70fa74e45c3917"
     instance_type = "t2.micro"
     tags = {
       Name = "testPC0"
   }
 }
-*/
+
 
 
 # multiple ec2 instance launches
